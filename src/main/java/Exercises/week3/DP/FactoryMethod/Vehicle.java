@@ -1,7 +1,9 @@
 package Exercises.week3.DP.FactoryMethod;
 
-public interface Vehicle {
+public abstract class Vehicle {
 
-    public abstract void transport(Passenger passenger);
+    public void transport(Passenger passenger) {
+        System.out.println(passenger.getName() + " traveling with " + this.className());
+    }
     public abstract String className();
 }

@@ -2,12 +2,14 @@ package Exercises.week3.DP.FactoryMethod;
 
 import Exercises.Utils.Randoms;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Passenger {
     private final String name;
     private final VehicleType favorite;
+    private static List<String> usedNames = new ArrayList<>();
 
 
     public Passenger(String name, VehicleType favoriteVehicle) {
@@ -17,8 +19,8 @@ public class Passenger {
 
 
     public static Passenger generatePassenger() {
-        List<String> names = Arrays.asList("KDB", "Alexis", "Messi", "Hazard", "Benteke", "Mahrez", "Schmeichel", "Aguero", "Sane", "Pogba", "Dier","Omar","Ali","Khaled","Ana","Sami");
-        String name = Randoms.randomNameByList(names);
+        String name = Randoms.randomNameWithoutDuplicate(usedNames);
+        usedNames.add(name);
         VehicleType vehicleType = VehicleType.values()[Randoms.randomInt(0,VehicleType.values().length)];
         return new Passenger(name, vehicleType);
     }
