@@ -1,0 +1,68 @@
+Team name: NYRO
+Players: 
+
+	Name: Dier
+	Jersey Number: 8
+	Grade: 2
+	Position: DEFENDER
+
+
+	Name: Sane
+	Jersey Number: 6
+	Grade: 4
+	Position: MIDFIELDER
+
+
+	Name: Aguero
+	Jersey Number: 5
+	Grade: 2
+	Position: DEFENDER
+
+
+	Name: Benteke
+	Jersey Number: 1
+	Grade: 6
+	Position: ATTACKER
+
+
+	Name: Alexis
+	Jersey Number: 10
+	Grade: 4
+	Position: DEFENDER
+
+
+	Name: Messi
+	Jersey Number: 2
+	Grade: 4
+	Position: DEFENDER
+
+
+	Name: Mahrez
+	Jersey Number: 11
+	Grade: 2
+	Position: ATTACKER
+
+
+	Name: Schmeichel
+	Jersey Number: 9
+	Grade: 5
+	Position: ATTACKER
+
+
+	Name: Pogba
+	Jersey Number: 3
+	Grade: 4
+	Position: MIDFIELDER
+
+
+	Name: Hazard
+	Jersey Number: 4
+	Grade: 1
+	Position: GOAL_KEEPER
+
+
+	Name: KDB
+	Jersey Number: 7
+	Grade: 6
+	Position: MIDFIELDER
+

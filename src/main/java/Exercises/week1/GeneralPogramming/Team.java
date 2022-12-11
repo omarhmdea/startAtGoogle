@@ -66,10 +66,10 @@ public class Team {
     public String getRandomName(List<String> names) {
 
         List<String> availableNames = new ArrayList<>(names);
-        availableNames.removeAll(this.playersName);
+        //availableNames.removeAll(this.playersName);
 
         String playerName = availableNames.get(Randoms.randomInt(availableNames.size()));
-        this.playersName.add(playerName);
+        //this.playersName.add(playerName);
 
         return playerName;
     }

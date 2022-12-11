@@ -1,7 +1,11 @@
 package Exercises.week1.GeneralPogramming;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Main {
 
@@ -15,6 +19,7 @@ public class Main {
 
         System.out.println(team.toString());
         team.writeToFile(teamName + "-Team.txt");
+
 
     }
 }
